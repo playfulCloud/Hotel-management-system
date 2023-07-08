@@ -1,28 +1,34 @@
 # Hotel-management-system
-Opis:
-System zarządzania hotelami to aplikacja webowa, która umożliwia zarządzanie i rezerwację pokoi w hotelach. Projekt wykorzystuje framework Spring Boot do budowy backendu oraz Hibernate jako narzędzie ORM (Object-Relational Mapping) do komunikacji z bazą danych.
+# Description:
+Hotel Management System is a web application that enables management and reservation of rooms in hotels. The project utilizes the Spring Boot framework for backend development and Hibernate as an Object-Relational Mapping (ORM) tool for database communication.
 
-Funkcjonalności:
+# Features:
 
-Rejestracja i logowanie użytkowników:
+User Registration and Login:
 
-Użytkownicy mogą założyć nowe konta i zalogować się do systemu.
-Możliwość zarządzania danymi użytkownika, takimi jak adres e-mail, hasło itp.
-Zarządzanie hotelami:
+Users can create new accounts and log into the system.
+Ability to manage user data such as email address, password, etc.
+Hotel Management:
 
-Użytkownicy z rolą administratora mogą dodawać, edytować i usuwać hotele.
-Dla każdego hotelu można podać informacje takie jak nazwa, adres, liczba pokoi, udogodnienia, oceny itp.
-Zarządzanie pokojami:
+Users with administrator role can add, edit, and delete hotels.
+Each hotel can have information such as name, address, number of rooms, amenities, ratings, etc.
+Room Management:
 
-Administratorzy mogą zarządzać pokojami w poszczególnych hotelach.
-Możliwość dodawania, edytowania i usuwania pokoi.
-Dla każdego pokoju można podać informacje takie jak numer pokoju, rodzaj, cena, dostępność itp.
-Rezerwacje:
+Administrators can manage rooms within individual hotels.
+Ability to add, edit, and delete rooms.
+Each room can have information such as room number, type, price, availability, etc.
+Reservations:
 
-Użytkownicy mogą przeglądać dostępne pokoje i dokonywać rezerwacji na określone daty.
-Możliwość wyszukiwania pokoi według kryteriów, takich jak lokalizacja, cena, dostępność itp.
-Użytkownicy mogą zobaczyć swoje aktywne rezerwacje i je anulować.
-Panel administracyjny:
+Users can browse available rooms and make reservations for specific dates.
+Ability to search for rooms based on criteria such as location, price, availability, etc.
+Users can view their active reservations and cancel them.
+Administrative Panel:
 
-Administratorzy mają dostęp do panelu administracyjnego, gdzie mogą zarządzać użytkownikami, hotelami, pokojami i rezerwacjami.
-Możliwość przeglądania statystyk, takich jak liczba zarejestrowanych użytkowników, liczba rezerwacji w danym okresie itp.
+Administrators have access to an administrative panel where they can manage users, hotels, rooms, and reservations.
+Ability to view statistics such as the number of registered users, number of reservations during a specific period, etc.
+Technologies:
+
+Spring Boot: A framework that facilitates Java application development.
+Hibernate: An ORM tool that simplifies database communication.
+MySQL or PostgreSQL: A relational database for storing information about hotels, rooms, users, etc.
+HTML/CSS and JavaScript: For building the user interface.
