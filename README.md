@@ -34,5 +34,5 @@ MySQL or PostgreSQL: A relational database for storing information about hotels,
 HTML/CSS and JavaScript: For building the user interface.
 
 
-# UML DIAGRAM:
+# UML Diagram:
 https://lucid.app/lucidchart/95e37f9a-0d8e-4133-9d4c-a29fa4af787b/edit?invitationId=inv_dfbe3935-b115-41ee-b89a-bb06184c8b28&page=0_0#
